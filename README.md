@@ -6,11 +6,11 @@
 If you need full size "raw" images, please clone the repo and help yourself with the jpegs organized by folder. If you'd like to generate them, the source code (not tested since 2017) is as follows:
 
 
-This code was extracted from a jupyter notebook.
+This code was extracted from a jupyter notebook which might be incomplete. Looks like the hough transforms are not being used, perhaps an opportunity to experiment! Enjoy!
 
 ```python
 from matplotlib import cm
-from skimage.transform import (hough_line, hough_line_peaks,probabilistic_hough_line)
+from skimage.transform import (hough_line, hough_line_peaks, probabilistic_hough_line)
 from skimage.feature import canny
 from skimage import data
 import numpy as np
