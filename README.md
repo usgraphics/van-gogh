@@ -6,7 +6,7 @@
 If you need full size "raw" images, please clone the repo and help yourself with the jpegs organized by folder. If you'd like to generate them, the source code (not tested since 2017) is as follows:
 
 
-This code was extracted from a jupyter notebook which is also included in this repo.
+This code was extracted from a jupyter notebook.
 
 ```python
 from matplotlib import cm
